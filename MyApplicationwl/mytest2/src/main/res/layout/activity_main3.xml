@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+   >
+    <TextView
+        android:id="@+id/wl3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="磊哥是无敌的时代峰峻放假打开撒就反倒是开发商方 反倒是卡"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textSize="34sp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/wl4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="磊哥是无敌的时代峰峻放假打开撒就反倒是开发商方 反倒是卡"
+        android:textColor="@color/black"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:drawableRight="@drawable/ic_baseline_assignment_returned_24"
+        android:textSize="34sp"/>
+
+    <TextView
+        android:id="@+id/wl5"
+        android:layout_width="136dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:drawableRight="@drawable/ic_baseline_assignment_returned_24"
+        android:text="@string/app_wl4"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+</LinearLayout>

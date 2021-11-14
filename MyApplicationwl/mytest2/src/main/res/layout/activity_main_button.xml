@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+    <Button
+        android:id="@+id/botton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_wl1"
+        android:text="磊哥是无敌的"/>
+
+    <Button
+        android:id="@+id/botton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botton1"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_wl2"
+        android:text="磊哥是无敌的"
+
+        />
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/botton2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_wl3"
+        android:onClick="showTost"
+        android:text="磊哥是无敌的" />
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="我是TextView"
+        android:textColor="#000"
+        android:layout_below="@id/bt3"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@drawable/btn_wl1"/>
+
+</RelativeLayout>

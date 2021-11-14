@@ -1,0 +1,9 @@
+
+rootProject.name = "My Application"
+include ':app'
+include ':mybutton'
+include ':mydeittext'
+include ':myimageview'
+include ':myprogressbar'
+include ':mytest1'
+include ':mytest2'
